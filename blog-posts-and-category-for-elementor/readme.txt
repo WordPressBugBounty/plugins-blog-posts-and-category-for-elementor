@@ -1,7 +1,7 @@
 Blog, Posts and Category Filter for Elementor
 Tags: elementor blog filter, elementor category filter, elementor post filter
 Requires at least: 6.0 or higher
-Tested up to: 6.6
+Tested up to: 6.7
 Stable tag: trunk
 Requires PHP: 7.4
 License: GPLv2 or later
@@ -76,6 +76,11 @@ There is also a [Pro Version](https://plugin-devs.com/product/elementor-post-cat
 > <strong>[Upgrade to Pro!](https://plugin-devs.com/product/elementor-post-category-filter/)</strong>
 
 == Changelog ==
+= 2.0.1 (11-05-24) =
+# Compatible with WordPress Latest Version
+# Compatible with Elementor Latest Version
+# Compatible with Elementor PRO Latest Version
+
 = 2.0.0 (07-06-24) =
 # Compatible with WordPress Latest Version
 # Compatible with Elementor Latest Version

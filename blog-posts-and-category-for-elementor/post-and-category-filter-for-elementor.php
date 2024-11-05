@@ -5,10 +5,13 @@
  * Author: Plugin Devs
  * Author URI: https://plugin-devs.com/
  * Plugin URI: https://plugin-devs.com/product/elementor-post-category-filter/
- * Version: 2.0.0
+ * Version: 2.0.1
  * License: GPLv2
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: pd-pcf
+ * 
+ * Elementor tested up to: 3.25.4
+ * Elementor Pro tested up to: 3.25.2
 */
 
  // Exit if accessed directly.
@@ -44,8 +47,8 @@ class PD_PCF_SLIDER
  	public function defined_constants(){
  		define( 'PD_PCF_PATH', plugin_dir_path( __FILE__ ) );
 		define( 'PD_PCF_URL', plugin_dir_url( __FILE__ ) ) ;
-		define( 'PD_PCF_VERSION', '2.0.0' ) ; //Plugin Version
-		define( 'PD_PCF_MIN_ELEMENTOR_VERSION', '2.0.0' ) ; //MINIMUM ELEMENTOR Plugin Version
+		define( 'PD_PCF_VERSION', '2.0.1' ) ; //Plugin Version
+		define( 'PD_PCF_MIN_ELEMENTOR_VERSION', '3.0.0' ) ; //MINIMUM ELEMENTOR Plugin Version
 		define( 'PD_PCF_MIN_PHP_VERSION', '7.4' ) ; //MINIMUM PHP Plugin Version
 		define( 'PD_PCF_PRO_LINK', 'https://plugin-devs.com/product/elementor-post-category-filter/' ) ; //Pro Link
  	}
