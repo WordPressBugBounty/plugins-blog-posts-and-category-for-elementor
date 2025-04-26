@@ -1,8 +1,8 @@
 Blog, Posts and Category Filter for Elementor
 Tags: elementor blog filter, elementor category filter, elementor post filter
 Requires at least: 6.0 or higher
-Tested up to: 6.7
-Stable tag: trunk
+Tested up to: 6.8
+Stable tag: 2.1.0
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -76,6 +76,12 @@ There is also a [Pro Version](https://plugin-devs.com/product/elementor-post-cat
 > <strong>[Upgrade to Pro!](https://plugin-devs.com/product/elementor-post-category-filter/)</strong>
 
 == Changelog ==
+= 2.1.0 (04-26-25) =
+# Fix WordFence Security Issue found on https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/blog-posts-and-category-for-elementor/blog-posts-and-category-filter-for-elementor-201-authenticated-contributor-stored-cross-site-scripting
+# Compatible with WordPress Latest Version
+# Compatible with Elementor Latest Version
+# Compatible with Elementor PRO Latest Version
+
 = 2.0.1 (11-05-24) =
 # Compatible with WordPress Latest Version
 # Compatible with Elementor Latest Version

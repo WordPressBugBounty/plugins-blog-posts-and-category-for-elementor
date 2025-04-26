@@ -1,4 +1,4 @@
-<div class="pd_pcf_item <?php echo 'pd-pcf-col-'.$columns_per_row; ?> <?php echo esc_attr($tax_class); ?>">
+<div class="pd_pcf_item <?php echo 'pd-pcf-col-'.esc_attr($columns_per_row); ?> <?php echo esc_attr($tax_class); ?>">
 	<div class="pd_pcf_single_item">
 	<?php if( isset($settings['display_image']) && ( $settings['display_image'] == 'yes' ) ){ ?>
 		<div class="pd_pcf_thumbnail">
@@ -24,7 +24,7 @@
 
 				<?php if( trim($read_more_text) != '' ){ ?>
 					<div class="pd_pcf_readmore">
-						<a class="pd_pcf_readmore_link" href="<?php the_permalink(); ?>"><?php echo $read_more_text; ?></a>
+						<a class="pd_pcf_readmore_link" href="<?php the_permalink(); ?>"><?php echo esc_html($read_more_text); ?></a>
 					</div>
 				<?php } ?>
 			</div>

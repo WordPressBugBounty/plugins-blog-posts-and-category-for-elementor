@@ -921,7 +921,7 @@ $settings_args['id'] = $element_id;
 	        	</div>
 	        <?php
 		        echo '<div
-		        		class="wbel_pd_pcf_wrapper wbel_pd_pcf_'.$template_style.'"
+		        		class="wbel_pd_pcf_wrapper wbel_pd_pcf_'.esc_attr($template_style).'"
 		        	>';
 		        $post_query = new \WP_Query($args);
 		        // print_r($post_query);
@@ -950,14 +950,14 @@ $settings_args['id'] = $element_id;
 				
 			?>
 						<div class="pd-pcf-load-btn">
-							<a class="pd_pcf_loadmore_btn" href="#" data-load_more="<?php echo $load_more_text; ?>" data-loading_more="<?php echo $loading_more_text; ?>">
+							<a class="pd_pcf_loadmore_btn" href="#" data-load_more="<?php echo esc_attr($load_more_text); ?>" data-loading_more="<?php echo esc_attr($loading_more_text); ?>">
 								<span class="pd_pcf_load_icon">
 									<i aria-hidden="true" class="fas fa-spinner"></i>
 								</span>
 								<span class="pd_pcf_loading_icon pd-pcf-d-none">
 									<i aria-hidden="true" class="fas fa-spinner fa-spin"></i>
 								</span>
-								<span class="pd-pcf-load-more-text"><?php echo $load_more_text; ?></span>
+								<span class="pd-pcf-load-more-text"><?php echo esc_html($load_more_text); ?></span>
 							</a>
 						</div>
 			<?php
@@ -966,7 +966,7 @@ $settings_args['id'] = $element_id;
 						?>
 					    <script type="text/javascript">
 					        jQuery(document).ready(function() {
-				        		var pd_pcf_packery = jQuery('#wbel_pd_pcf_<?php echo $element_id; ?> .wbel_pd_pcf_wrapper').isotope({
+				        		var pd_pcf_packery = jQuery('#wbel_pd_pcf_<?php echo esc_attr($element_id); ?> .wbel_pd_pcf_wrapper').isotope({
 								  // options
 								  itemSelector: '.pd_pcf_item',
 				  				  layoutMode: 'fitRows',
